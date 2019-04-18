@@ -16,7 +16,7 @@ TDP_DECLARE_ID(                     featuresSID,                         "Featur
 TDP_DECLARE_ID(                      matchesSID,                          "Matches")
 
 //##################################################################################################
-//! Add the collection factories that this module provides to the StepDelegateMap
+//! Add the collection factories that this module provides to the CollectionFactory
 void createCollectionFactories(tp_data::CollectionFactory& collectionFactory);
 
 }
