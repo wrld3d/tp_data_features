@@ -19,6 +19,10 @@ TDP_DECLARE_ID(                      matchesSID,                          "Match
 //! Add the collection factories that this module provides to the CollectionFactory
 void createCollectionFactories(tp_data::CollectionFactory& collectionFactory);
 
+//##################################################################################################
+//! Static initialization of this module, see TP_STATIC_INIT in dependencies.pri
+int staticInit();
+
 }
 
 #endif
